@@ -4,7 +4,11 @@ import { fifaData } from './fifa.js';
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Practice accessing data by console.log-ing the following pieces of data note, you may want to filter the data first 😉*/
+let teams = fifaData.filter((Element) => {
+    return Element.Stage === "Final" && Element.year === 2014;
+})
 
+console.log(teams, `Task 1`);
 //(a) Home Team name for 2014 world cup final
 
 //(b) Away Team name for 2014 world cup final
@@ -17,7 +21,7 @@ Practice accessing data by console.log-ing the following pieces of data note, yo
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
-Use getFinals to do the following:
+Use getFinals to do the following:P
 1. Receive data as a parameter
 2. Return an array of objects with the data of the teams that made it to the final stage
 
@@ -124,7 +128,7 @@ function badDefense(/* code here */) {
 }
 
 
-/* If you still have time, use the space below to work on any stretch goals of your chosing as listed in the README file. */
+/* If you still have time, use the space below to work on any stretch goals of your choosing as listed in the README file. */
 
 
 /* 🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑 */
