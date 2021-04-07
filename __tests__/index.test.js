@@ -1,4 +1,4 @@
-import { fifaData } from 'fifa.js';
+import { fifaData } from '../fifa';
 import functions from '../index';
 
 //helper functions

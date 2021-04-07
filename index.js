@@ -1,20 +1,37 @@
+/* eslint-disable no-unused-vars */
 import { fifaData } from './fifa.js';
-console.log(fifaData);
+//console.log(fifaData);
 
 // ⚽️ M  V P ⚽️ //
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Practice accessing data by console.log-ing the following pieces of data note, you may want to filter the data first 😉*/
+let teamsCb =fifaData.filter((Element) => {
+    return Element.Stage === "Final" && Element.year === 2014;
+});
 
 //(a) Home Team name for 2014 world cup final
+function taskA(Object, callback) {
+    return (teamsCb);   
+}
+console.log(taskA(fifaData, teamsCb));
 
 //(b) Away Team name for 2014 world cup final
 
+
+
 //(c) Home Team goals for 2014 world cup final
+
+
 
 //(d) Away Team goals for 2014 world cup final
 
+
+
 //(e) Winner of 2014 world cup final */
+
+
+
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
