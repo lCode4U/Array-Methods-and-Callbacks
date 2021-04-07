@@ -1,19 +1,15 @@
 import { fifaData } from './fifa.js';
+console.log(fifaData);
 
 // ⚽️ M  V P ⚽️ //
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Practice accessing data by console.log-ing the following pieces of data note, you may want to filter the data first 😉*/
-// let teams = fifaData.filter((Element) => {
-//     return Element.Stage === "Final" && Element.year === 2014;
-// })
+
 //(a) Home Team name for 2014 world cup final
-let teams = fifaData.filter((Element) => {
-    return Element.Stage === "Final" && Element.year === 2014;
-});
 
 //(b) Away Team name for 2014 world cup final
-teams("Away Team Name");
+
 //(c) Home Team goals for 2014 world cup final
 
 //(d) Away Team goals for 2014 world cup final
@@ -22,10 +18,9 @@ teams("Away Team Name");
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
-Use getFinals to do the following:P
+Use getFinals to do the following:
 1. Receive data as a parameter
 2. Return an array of objects with the data of the teams that made it to the final stage
-
 hint - you should be looking at the stage key inside of the objects
 */
 
@@ -66,7 +61,6 @@ Use the higher-order function getWinnersByYear to do the following:
 2. Receive a callback function getYears from task 3
 3. Receive a callback function getWinners from task 4
 4. Return an array of strings that say "In {year}, {country} won the world cup!" 
-
 hint: the strings returned need to exactly match the string in step 4.
  */
 
@@ -97,7 +91,6 @@ function getAverageGoals(/* code here */) {
 
 /* 💪💪💪💪💪 Stretch 1: 💪💪💪💪💪 
 Create a function called `getCountryWins` that takes the parameters `data` and `team initials` and returns the number of world cup wins that country has had. 
-
 Hint: Investigate your data to find "team initials"!
 Hint: use `.reduce` */
 
@@ -129,7 +122,7 @@ function badDefense(/* code here */) {
 }
 
 
-/* If you still have time, use the space below to work on any stretch goals of your choosing as listed in the README file. */
+/* If you still have time, use the space below to work on any stretch goals of your chosing as listed in the README file. */
 
 
 /* 🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑 */
