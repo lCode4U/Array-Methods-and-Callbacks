@@ -2,7 +2,8 @@
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Investigate the data above. Practice accessing data by console.log-ing the following pieces of data note, you may want to filter the data first 😉*/
-let teamsCb =fifaData.filter((Element) => {
+
+let teamsCb = fifaData.filter((Element) => {
     return Element.Stage === "Final" && Element.year === 2014;
 });
 
