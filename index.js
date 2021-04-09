@@ -3,15 +3,15 @@
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Investigate the data above. Practice accessing data by console.log-ing the following pieces of data note, you may want to filter the data first 😉*/
 
-let teamsCb = fifaData.filter((Element) => {
-    return Element.Stage === "Final" && Element.year === 2014;
-});
+// let teamsCb = {fifaData}.filter((Element) => {
+//     return Element.Stage === "Final" && Element.year === 2014;
+// });
 
 //(a) Home Team name for 2014 world cup final
-function taskA(Object, callback) {
-    return (teamsCb);   
-}
-console.log(taskA(fifaData, teamsCb));
+// function taskA(Object, callback) {
+//     return (teamsCb);   
+// }
+// console.log(taskA(fifaData, teamsCb));
 
 //(b) Away Team name for 2014 world cup final
 
@@ -25,9 +25,9 @@ console.log(taskA(fifaData, teamsCb));
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Create a function called  getFinals that takes `data` as an argument and returns an array of objects with only finals data */
 
-function getFinals(finalData) {
-    return fifaData.filter(Element => Element.Stage === "Final");
-   }
+// function getFinals(Object) {
+//     return fifaData.filter(Element => Element.Stage === "Final");
+//    }
    
  
  
